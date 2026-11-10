@@ -1,0 +1,6 @@
+{
+  "name": "KREASIKA - Studio Visual & Multimedia UMKM",
+  "description": "Solusi foto produk estetik, video reels viral, dan desain konten feeds untuk UMKM dan brand lokal Indonesia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
