@@ -3,7 +3,7 @@ import { Check, ArrowRight } from 'lucide-react';
 import { PRICING_PLANS } from '../data/contentData.ts';
 
 interface PricingSectionProps {
-  onContactClick: () => void;
+  onContactClick: (planDetails: string) => void;
 }
 
 export const PricingSection: React.FC<PricingSectionProps> = ({ onContactClick }) => {
@@ -110,7 +110,7 @@ export const PricingSection: React.FC<PricingSectionProps> = ({ onContactClick }
                 {/* CTA Button */}
                 <div className="pt-6 mt-6 border-t border-slate-100/10">
                   <button
-                    onClick={onContactClick}
+                    onClick={() => onContactClick(`${plan.name} (${price})`)}
                     className={`w-full py-2.5 rounded-full text-xs font-bold flex items-center justify-center gap-1.5 transition-all ${
                       plan.isPopular
                         ? 'bg-white text-slate-950 hover:bg-slate-100'

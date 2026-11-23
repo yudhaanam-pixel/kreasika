@@ -230,8 +230,8 @@ export const PRICING_PLANS: PricingPlan[] = [
     name: 'Starter Brand',
     tagline: 'Solusi ideal untuk UMKM & brand baru yang ingin upgrade visual toko online.',
     isPopular: false,
-    projectPrice: 'Rp 1.499.000',
-    monthlyPrice: 'Rp 1.299.000',
+    projectPrice: 'Rp 50.000',
+    monthlyPrice: 'Rp 42.500',
     features: [
       { included: true, text: '10 Foto Produk High-Res Studio' },
       { included: true, text: '1 Konsep Moodboard & Props Dasar' },
@@ -252,8 +252,8 @@ export const PRICING_PLANS: PricingPlan[] = [
     tagline: 'Paling diminati brand berkembang untuk melipatgandakan konversi penjualan.',
     badge: 'Paling Diminati',
     isPopular: true,
-    projectPrice: 'Rp 3.799.000',
-    monthlyPrice: 'Rp 3.299.000',
+    projectPrice: 'Rp 100.000',
+    monthlyPrice: 'Rp 85.000',
     features: [
       { included: true, text: '25 Foto Produk High-Res Studio & Kreatif' },
       { included: true, text: '2 Video Reels / TikTok Sinematik (9:16)' },
@@ -273,8 +273,8 @@ export const PRICING_PLANS: PricingPlan[] = [
     name: 'Enterprise / Signature',
     tagline: 'Layanan studio menyeluruh untuk brand established, korporat, dan kampanye nasional.',
     isPopular: false,
-    projectPrice: 'Rp 8.499.000',
-    monthlyPrice: 'Rp 7.499.000',
+    projectPrice: 'Rp 150.000',
+    monthlyPrice: 'Rp 127.500',
     features: [
       { included: true, text: '50+ Foto Produk & Lifestyle Lengkap' },
       { included: true, text: '5 Video Reels + 1 Master Commercial 4K' },
