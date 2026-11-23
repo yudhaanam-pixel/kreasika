@@ -708,7 +708,7 @@ export default function App() {
               <div className="pt-2 border-t border-slate-100">
                 <div className="flex items-baseline gap-1">
                   <span className="text-xs font-bold text-slate-900">Rp</span>
-                  <span className="text-3xl font-extrabold text-slate-900">99</span>
+                  <span className="text-3xl font-extrabold text-slate-900">50</span>
                   <span className="text-xs font-bold text-slate-900">.000</span>
                 </div>
                 <p className="text-[10px] text-slate-400 mt-0.5">/ paket proyek</p>
@@ -740,7 +740,7 @@ export default function App() {
 
             <div className="pt-6 mt-6 border-t border-slate-100">
               <button
-                onClick={() => handleWhatsAppClick('Paket Starter UMKM (Rp 99.000)')}
+                onClick={() => handleWhatsAppClick('Paket Starter UMKM (Rp 50.000)')}
                 className="w-full py-2.5 rounded-full text-xs font-bold text-slate-900 bg-white hover:bg-slate-50 border border-slate-200 transition-colors"
               >
                 Pilih Paket Starter
@@ -769,7 +769,7 @@ export default function App() {
               <div className="pt-2 border-t border-slate-100">
                 <div className="flex items-baseline gap-1">
                   <span className="text-xs font-bold text-slate-900">Rp</span>
-                  <span className="text-3xl font-extrabold text-slate-950">199</span>
+                  <span className="text-3xl font-extrabold text-slate-950">100</span>
                   <span className="text-xs font-bold text-slate-900">.000</span>
                 </div>
                 <p className="text-[10px] text-slate-400 mt-0.5">/ paket proyek</p>
@@ -801,7 +801,7 @@ export default function App() {
 
             <div className="pt-6 mt-6 border-t border-slate-100">
               <button
-                onClick={() => handleWhatsAppClick('Paket Naik Kelas (Rp 199.000)')}
+                onClick={() => handleWhatsAppClick('Paket Naik Kelas (Rp 100.000)')}
                 className="w-full py-2.5 rounded-full text-xs font-bold text-white bg-slate-950 hover:bg-slate-800 transition-colors shadow-xs"
               >
                 Pilih Paket Naik Kelas
@@ -825,7 +825,7 @@ export default function App() {
               <div className="pt-2 border-t border-slate-100">
                 <div className="flex items-baseline gap-1">
                   <span className="text-xs font-bold text-slate-900">Rp</span>
-                  <span className="text-3xl font-extrabold text-slate-900">349</span>
+                  <span className="text-3xl font-extrabold text-slate-900">150</span>
                   <span className="text-xs font-bold text-slate-900">.000</span>
                 </div>
                 <p className="text-[10px] text-slate-400 mt-0.5">/ paket proyek</p>
@@ -857,7 +857,7 @@ export default function App() {
 
             <div className="pt-6 mt-6 border-t border-slate-100">
               <button
-                onClick={() => handleWhatsAppClick('Paket Ultimate Brand (Rp 349.000)')}
+                onClick={() => handleWhatsAppClick('Paket Ultimate Brand (Rp 150.000)')}
                 className="w-full py-2.5 rounded-full text-xs font-bold text-slate-900 bg-white hover:bg-slate-50 border border-slate-200 transition-colors"
               >
                 Pilih Paket Ultimate
